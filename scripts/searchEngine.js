@@ -20,7 +20,7 @@ function search(event) {
 
             switch(commandName) {
             	case "img":
-            		url = "https://www.google.com/search?tbm=isch&q=" + query;
+            		url = "https://duckduckgo.com/?q=" + query;
             		break;
 				case "wiki":
 					url = "https://en.wikipedia.org/wiki/" + query;
@@ -33,7 +33,7 @@ function search(event) {
         } else { 
 			//default search
 			//You can change the search engine you prefer here
-         	url = 'https://www.google.com/search?q=' + text;
+         	url = 'https://duckduckgo.com/?q=' + text;
         }
 
     window.open(url, '_self');
