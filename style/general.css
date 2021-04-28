@@ -249,10 +249,11 @@ body {
     margin:0 auto;
     height: 35px;
     width:500px;
-    border-radius:5px;
+    border-radius:10px;
     border:0px solid var(--text-color);
-    background-color: white;
+    background-color: #ffffff88;
     margin-bottom: 20px;
+	padding:10px;
 }
 
 #searchbar{
@@ -265,10 +266,11 @@ body {
     outline: none;
     background: none;
 
-    font-size: 10pt;
+    font-size: 14pt;
     color: var(--quote-color);
     padding:0 5px;
     line-height:100%;    
+	font-weight:bold;
 }
 
 #searchBox #icon {
