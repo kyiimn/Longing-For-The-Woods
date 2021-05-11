@@ -3,9 +3,7 @@
     --text: #FFFFFF;
     --secondarytext: #FEFEFE;
     --italics: #0E1625;
-    --opaqueBackground: rgb(255,255,255,0.7);
-    --opaqueBackground: #0E1625;
-    --opaqueBackground: #FFFFFF;
+    --opaqueBackground: #FFFFFF99;
     --border: #ACA59A;
     --feedborder: #DEB818;
     --feedborder: #6F1519;
@@ -149,6 +147,7 @@ body {
 #sidepanel:hover > #newsIcon {
     width: 0;;
     transition: 0.5s;
+    padding: 0;
 }
 
 #newsIcon {
@@ -158,10 +157,11 @@ body {
     width: 40px;
     height: 40px;
     background-image: url("../pics/news.png");
-    background-size: 100%;
+    background-size: 40px;
     background-repeat: no-repeat;
     background-position:right;
     transition: 0.5s;
+    padding-left: 20px;
 }
 
 /*makes it possible to add multiple feeds next to each other. Requires some tinkering*/
@@ -185,6 +185,7 @@ body {
     font-size: 15px;
     font-weight: 120;
     font-weight: 200;
+    font-weight: 600;
 }
 
 #feed-textarea p{
