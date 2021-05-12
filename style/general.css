@@ -171,7 +171,7 @@ body {
 }
 
 #feed-textarea {
-    height: 100%;
+    height: calc(100% - 74px);
     overflow-y: auto;
     display: block;
     /*scrollbar-width: none;*/
